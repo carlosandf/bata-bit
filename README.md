@@ -1,3 +1,5 @@
 # Bata-bit
 
-- Este es un proyecto Mobile First.
+### Este es un proyecto Mobile First.
+
+- Batatabit es Una plataforma revolucionaria para el intercambio de Bitcoin en latinoamérica.
