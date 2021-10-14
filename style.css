@@ -136,17 +136,15 @@ font-family: 'Roboto', sans-serif;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0  auto;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
 .main-currency-table .currency-table--title {
     margin-bottom: 15px;
-    margin-left: 20px;
     font-family: 'DM Sans', sans-serif;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    text-align: start;
     color: var(--bitcoin-orange);
 }
 .currency-table--container {
@@ -235,12 +233,10 @@ font-family: 'Roboto', sans-serif;
 }
 .main-commission-table .commission-table--title {
     margin-bottom: 15px;
-    margin-left: 20px;
     font-family: 'DM Sans', sans-serif;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    text-align: start;
     color: var(--secondary-blue);
 }
 .commission-table--container {
