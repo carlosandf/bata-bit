@@ -87,7 +87,7 @@ font-family: 'Roboto', sans-serif;
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url('./assets/icons/down-arrow.svg') 
+    background-image: url('../assets/icons/down-arrow.svg'); 
  }
  main {
      width: 100%;
@@ -112,7 +112,7 @@ font-family: 'Roboto', sans-serif;
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url(./assets/imgs/Bitcoin.svg);
+    background-image: url(../assets/imgs/Bitcoin.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -135,13 +135,11 @@ font-family: 'Roboto', sans-serif;
 /* TABLE CONTAINER*/
 .main-tables-container {
     width: 100%;
-    display: flex;
     padding: 0 50px;
-    overflow: scroll;
+    
 }
-.main-tables-container .table-scroll {
-    margin-right: 50px; 
-}
+
+.main-commission-table,
 .main-currency-table {
     width: 70%;
     min-width: 235px;
@@ -151,29 +149,39 @@ font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
-/* Title 'Monedas' */
+/* Title currency and commission */
+.main-commission-table .commission-table--title,
 .main-currency-table .currency-table--title {
     margin-bottom: 15px;
     font-family: 'DM Sans', sans-serif;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
+}
+
+.main-currency-table .currency-table--title {
     color: var(--bitcoin-orange);
+}
+.main-commission-table .commission-table--title {
+    color: var(--secondary-blue);
 }
 
 /* Style Tables */
-.table--container {
+.commission-table--container,
+.currency-table--container {
     width: 90%;
     min-width: 230px;
     max-width: 500px;
     height: 200px;
     margin: 0 auto;
 }
-.table--container table {
+.commission-table--container table,
+.currency-table--container table {
     width: 100%;
     height: 100%;
 }
-.table--container td {
+.commission-table--container td,
+.currency-table--container td {
     width: 50%;
     font-size: 1.6rem;
     font-weight: 500;
@@ -181,19 +189,28 @@ font-family: 'Roboto', sans-serif;
     color: var(--grey);
     background-color: var(--just-white);
 }
-.table--container .table__top-left {
+
+/* Border-radius tables */
+.commission-table--container .table__top-left,
+.currency-table--container .table__top-left {
     border-radius: 15px 0 0 0;
-}
-.table--container .table__top-right {
+} 
+.commission-table--container .table__top-right,
+.currencu-table--container .table__top-right {
     border-radius:  0 15px 0 0;
 }
-.table--container .table__bottom-left {
+.commission-table--container .table__bottom-left,
+.currency-table--container .table__bottom-left {
     border-radius: 0 0 0 15px;
 }
+.commission-table--container .table__bottom-right,
 .table--container .table__bottom-right {
     border-radius: 0 0 15px 0;
 }
-.table--container .table__right {
+
+
+.commission-table--container .table__right,
+.currency-table--container .table__right {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 1.7rem;
@@ -206,7 +223,7 @@ font-family: 'Roboto', sans-serif;
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url('./assets/icons/trending-down.svg');
+    background-image: url('../assets/icons/trending-down.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -216,22 +233,30 @@ font-family: 'Roboto', sans-serif;
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url('./assets/icons/trending-up.svg');
+    background-image: url('../assets/icons/trending-up.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-/* Currency Table date */
+/* Table date */
+.commission-table--date,
 .currency-table--date {
     width: 190px;
     height: 30px;
     margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
-    background-color: var(--soft-orange);
     border-radius: 8px;
 }
+.currency-table--date{
+    background-color: var(--soft-orange);
+}
+.commission-table--date {
+    background-color: var(--soft-blue);
+}
+
+.commission-table--date p,
 .currency-table--date p {
     font-size: 1.2rem;
     font-weight: 300;
@@ -239,37 +264,98 @@ font-family: 'Roboto', sans-serif;
     color: var(--warm-black);
 }
 
-
-
-/* Comisiones */ 
-.main-commission-table {
-    width: 70%;
-    min-width: 235px;
-    max-width: 500px;
-    height: 360px;
-    margin: 0  auto;
-    font-family: 'Roboto', sans-serif;
+/* section products */
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
 }
-.main-commission-table .commission-table--title {
+
+/* Logo */
+.product-detail--batata-logo {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    bottom: calc(100% - 10px);
+    left: calc(50% - 20px);
+    background-image: url('../assets/icons/batata.svg');
+}
+.product-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.product-detail--title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail--title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .3);
+}
+
+/* Icons */
+.product-detail--card .clock {
+    background-image: url('../assets/icons/clock.svg');
+}
+.product-detail--card .eye {
+    background-image: url('../assets/icons/eye.svg');
+}
+.product-detail--card .dollar {
+    background-image: url('../assets/icons/dollar-sign.svg');
+}
+.product-detail--card .check {
+    background-image: url('../assets/icons/check-circle.svg');
+}
+
+.product-detail--card .check,
+.product-detail--card .dollar,
+.product-detail--card .eye,
+.product-detail--card .clock {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.product--card-title {
     margin-bottom: 15px;
-    font-family: 'DM Sans', sans-serif;
     font-size: 1.8rem;
     font-weight: bold;
-    line-height: 2.3rem;
-    color: var(--secondary-blue);
+    line-height: 1.8rem;
+    color: var(--just-white);
 }
-.commission-table--date {
-    width: 190px;
-    height: 30px;
-    margin: 0 auto;
-    margin-top: 15px;
-    padding: 8px;
-    background-color: var(--soft-blue);
-    border-radius: 8px;
-}
-.commission-table--date p {
-    font-size: 1.2rem;
-    font-weight: 300;
-    line-height: 1.5rem;
-    color: var(--warm-black);
+.product--card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
 }
