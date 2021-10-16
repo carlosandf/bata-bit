@@ -264,11 +264,11 @@ font-family: 'Roboto', sans-serif;
     color: var(--warm-black);
 }
 
-/* section products */
+/* section veneficios del producto */
 .main-product-detail {
     position: relative;
     width: 100%;
-    min-width: 320;
+    min-width: 320px;
     height: auto;
     padding: 20px 10px;
     background-color: var(--warm-black);
@@ -279,10 +279,12 @@ font-family: 'Roboto', sans-serif;
     position: absolute;
     width: 40px;
     height: 25px;
-    bottom: calc(100% - 10px);
+    top: -12.5px;
     left: calc(50% - 20px);
     background-image: url('../assets/icons/batata.svg');
 }
+
+/* Title product */
 .product-detail--title {
     width: 90%;
     min-width: 288px;
@@ -306,6 +308,7 @@ font-family: 'Roboto', sans-serif;
     color: #808080;
 }
 
+/* Cards Style */
 .product-detail--card {
     width: 90%;
     min-width: 288px;
@@ -332,10 +335,7 @@ font-family: 'Roboto', sans-serif;
     background-image: url('../assets/icons/check-circle.svg');
 }
 
-.product-detail--card .check,
-.product-detail--card .dollar,
-.product-detail--card .eye,
-.product-detail--card .clock {
+.product-detail--card .icon-card {
     display: inline-block;
     width: 20px;
     height: 20px;
