@@ -4,4 +4,4 @@
 
 - Batatabit es Una plataforma revolucionaria para el intercambio de Bitcoin en latinoamérica.
 
-####  Este es mi primer proyecto
+####  Este es mi primer proyecto profecional.
