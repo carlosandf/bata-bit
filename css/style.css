@@ -379,6 +379,7 @@ font-family: 'Roboto', sans-serif;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
+    text-shadow: 2px 2px 4px black;
 }
 
 /* Seccion 4: Plans Section */
@@ -412,10 +413,10 @@ font-family: 'Roboto', sans-serif;
 /* PLANS CARDS */
 .plans-container--card {
     position: relative;
-    width: 62%;
+    width: 65%;
     min-width: 19rem;
     max-width: 25rem;
-    height: 25rem;
+    height: 25.5rem;
     margin: 5rem auto 0;
     padding: 0 1.5rem 1.5rem;
     background-color: var(--just-white);
@@ -425,13 +426,17 @@ font-family: 'Roboto', sans-serif;
 .plan-basic,
 .plan-recommended,
 .plan-vip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     width: 10.1rem;
     height: 3.1rem;
-    padding: .6rem;
+    
     top: -1.55rem;
     left: calc(50% - 10.1rem/2);
     font-size: 1.2rem;
+    font-weight: bold;
     border-radius: 5px;
     color: var(--just-white);
 }
