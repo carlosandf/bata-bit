@@ -318,7 +318,7 @@ font-family: 'Roboto', sans-serif;
     padding: 15px;
     background-color: var(--black);
     border-radius: 5px;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .16);
 }
 
 /* Icons */
@@ -360,18 +360,18 @@ font-family: 'Roboto', sans-serif;
     color: #808080;
 }
 
-/* seccion 3: bitcoin background img */
-.bitcion-img-contaimer {
+/* seccion comodin: bitcoin background img */
+.bitcoin-img-contaimer {
     width: 100%;
     min-width: 320px;
     height: 60vh;
-    background-image: url('../assets/imgs/bitcoinbaby2x.jpg');
+    background-image: url('../assets/imgs/bitcoinbaby.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
 }
-.bitcion-img-contaimer h2 {
+.bitcoin-img-contaimer h2 {
     padding-top: 60px;
     font-size: 2.4rem;
     font-weight: bold;
@@ -405,4 +405,51 @@ font-family: 'Roboto', sans-serif;
     font-weight: 500;
     line-height: 1.8rem;
     color: #757575;
+}
+
+/* PLANS CARDS */
+.plans-container--card {
+    position: relative;
+    width: 62%;
+    min-width: 190px;
+    max-width: 250px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+.plans-container--card .recommended {
+    position: absolute;
+    width: 105px;
+    height: 31px;
+    padding: 6px;
+    top: -15.5px;
+    left: calc(50% - 52.5px);
+    font-size: 1.2rem;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+}
+.plan-info-container .plan-card--title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    color: #000000;
+}
+.plan-info-container .plan-card--price {
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    color: #000000;
+}
+.plan-card--price span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    vertical-align: 3rem;
+    font-family: 'Roboto', sans-serif;
 }
