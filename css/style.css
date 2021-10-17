@@ -8,6 +8,7 @@ font-family: 'Roboto', sans-serif;
     --bitcoin-orange: #F7931A;
     --soft-orange: #FFE9D5;
     --secondary-blue: #1A9AF7;
+    --secondary-purple: #7151a6;
     --soft-blue: #E7F5FF;
     --warm-black: #201E1C;
     --black: #282623;
@@ -31,23 +32,23 @@ font-family: 'Roboto', sans-serif;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    min-width: 320px;
-    height: 334px;
+    min-width: 32rem;
+    height: 33.4rem;
     text-align: center;
     background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
  }
  header img {
-    width: 150px;
-    height: 24px;
-    margin-top: 60px;
+    width: 15rem;
+    height: 2.4rem;
+    margin-top: 6rem;
     align-self: center;
  }
  .header--title-container {
     width: 90%;
-    min-width: 288px;
-    max-width: 900px;
-    height: 218px;
-    margin-top: 40px;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    height: 21.8rem;
+    margin-top: 4rem;
     text-align: center;
     align-self: center;
  }
@@ -58,7 +59,7 @@ font-family: 'Roboto', sans-serif;
     color: var(--just-white);
  }
  .header--title-container p {
-    margin-top: 25px;
+    margin-top: 2.5rem;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
@@ -67,11 +68,11 @@ font-family: 'Roboto', sans-serif;
  .header--title-container .header--button {
     position: absolute;
     display: block;
-    padding: 15px;
-    width: 229px;
-    height: 48px;
-    left: calc(50% - 114.5px);
-    top: calc(100% - 24px);
+    padding: 1.5rem;
+    width: 22.9rem;
+    height: 4.8rem;
+    left: calc(50% - 2222.9rem/2);
+    top: calc(100% - 2.4rem);
     background-color: var(--off-white);
     /* Shadow */
     box-shadow: 0px 4px 8px rgba(89, 73, 30, .2);
@@ -84,48 +85,49 @@ font-family: 'Roboto', sans-serif;
  }
  .header--button span {
     display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
+    width: 1.3rem;
+    height: .8rem;
+    margin-left: 1rem;
     background-image: url('../assets/icons/down-arrow.svg'); 
  }
  main {
      width: 100%;
+     min-width: 32rem;
      height: auto;
      background-color: var(--off-white);
  }
  .main-exchange-container {
      width: 100%;
      height: auto;
-     padding-top: 80px;
-     padding-bottom: 30px;
+     padding-top: 8rem;
+     padding-bottom: 3rem;
      text-align: center;
  }
 .main-exchange-container--title {
     width: 90%;
-    min-width: 288px;
-    max-width: 900px;
+    min-width: 28.8rem;
+    max-width: 90rem;
     margin: 0 auto;
 }
 .main-exchange-container .backgroundImg {
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     background-image: url(../assets/imgs/bitcoin.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .main-exchange-container h2 {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--black);
 }
 .main-exchange-container p {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
@@ -135,16 +137,16 @@ font-family: 'Roboto', sans-serif;
 /* TABLE CONTAINER*/
 .main-tables-container {
     width: 100%;
-    padding: 0 50px;
+    padding: 0 5rem;
     
 }
 
 .main-commission-table,
 .main-currency-table {
     width: 70%;
-    min-width: 235px;
-    max-width: 500px;
-    height: 360px;
+    min-width: 23.5rem;
+    max-width: 50rem;
+    height: 36rem;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
@@ -152,7 +154,7 @@ font-family: 'Roboto', sans-serif;
 /* Title currency and commission */
 .main-commission-table .commission-table--title,
 .main-currency-table .currency-table--title {
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
     font-family: 'DM Sans', sans-serif;
     font-size: 1.8rem;
     font-weight: bold;
@@ -170,9 +172,9 @@ font-family: 'Roboto', sans-serif;
 .commission-table--container,
 .currency-table--container {
     width: 90%;
-    min-width: 230px;
-    max-width: 500px;
-    height: 200px;
+    min-width: 23rem;
+    max-width: 50rem;
+    height: 20rem;
     margin: 0 auto;
 }
 .commission-table--container table,
@@ -220,9 +222,9 @@ font-family: 'Roboto', sans-serif;
 /* Currency table arrow 'UP' and 'Down' */
 .currency-table--container .down {
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1rem;
     background-image: url('../assets/icons/trending-down.svg');
     background-size: cover;
     background-position: center;
@@ -230,9 +232,9 @@ font-family: 'Roboto', sans-serif;
 }
 .currency-table--container .up {
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1rem;
     background-image: url('../assets/icons/trending-up.svg');
     background-size: cover;
     background-position: center;
@@ -242,12 +244,12 @@ font-family: 'Roboto', sans-serif;
 /* Table date */
 .commission-table--date,
 .currency-table--date {
-    width: 190px;
-    height: 30px;
+    width: 19rem;
+    height: 3rem;
     margin: 0 auto;
-    margin-top: 15px;
-    padding: 8px;
-    border-radius: 8px;
+    margin-top: 1.5rem;
+    padding: .8rem;
+    border-radius: .8reM;
 }
 .currency-table--date{
     background-color: var(--soft-orange);
@@ -268,40 +270,40 @@ font-family: 'Roboto', sans-serif;
 .main-product-detail {
     position: relative;
     width: 100%;
-    min-width: 320px;
+    min-width: 32rem;
     height: auto;
-    padding: 20px 10px;
+    padding: 2rem 1rem;
     background-color: var(--warm-black);
 }
 
 /* Logo */
 .product-detail--batata-logo {
     position: absolute;
-    width: 40px;
-    height: 25px;
-    top: -12.5px;
-    left: calc(50% - 20px);
+    width: 4rem;
+    height: 2.5rem;
+    top: -1.25rem;
+    left: calc(50% - 2rem);
     background-image: url('../assets/icons/batata.svg');
 }
 
 /* Title product */
 .product-detail--title {
     width: 90%;
-    min-width: 288px;
+    min-width: 28.8rem;
     height: auto;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 5rem;
     text-align: center;
 }
 .product-detail--title h2 {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
 }
 .product-detail--title p {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
@@ -311,11 +313,11 @@ font-family: 'Roboto', sans-serif;
 /* Cards Style */
 .product-detail--card {
     width: 90%;
-    min-width: 288px;
-    max-width: 400px;
-    min-height: 152px;
-    margin: 15px auto;
-    padding: 15px;
+    min-width: 28.8rem;
+    max-width: 40rem;
+    min-height: 15.2rem;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
     background-color: var(--black);
     border-radius: 5px;
     box-shadow: 0 4px 5px rgba(0, 0, 0, .16);
@@ -337,9 +339,9 @@ font-family: 'Roboto', sans-serif;
 
 .product-detail--card .icon-card {
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -347,7 +349,7 @@ font-family: 'Roboto', sans-serif;
 
 
 .product--card-title {
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.8rem;
@@ -382,16 +384,16 @@ font-family: 'Roboto', sans-serif;
 /* Seccion 4: Plans Section */
 .main-plans-container {
     width: 100%;
-    min-width: 320px;
-    padding-bottom: 70px;
+    min-width: 32rem;
+    padding-bottom: 7rem;
     text-align: center;
 }
 .plans--title {
     width: 90%;
-    min-width: 288px;
+    min-width: 28.8rem;
     height: auto;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 5rem 0;
 }
 .plans--title h2 {
     font-size: 2.4rem;
@@ -400,7 +402,7 @@ font-family: 'Roboto', sans-serif;
     color: var(--warm-black);
 }
 .plans--title p {
-    padding-top: 30px;
+    padding-top: 3rem;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
@@ -411,36 +413,47 @@ font-family: 'Roboto', sans-serif;
 .plans-container--card {
     position: relative;
     width: 62%;
-    min-width: 190px;
-    max-width: 250px;
-    height: 250px;
-    margin: 50px auto 0;
-    padding: 0 15px;
+    min-width: 19rem;
+    max-width: 25rem;
+    height: 25rem;
+    margin: 5rem auto 0;
+    padding: 0 1.5rem 1.5rem;
     background-color: var(--just-white);
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
 }
-.plans-container--card .recommended {
+.plan-basic,
+.plan-recommended,
+.plan-vip {
     position: absolute;
-    width: 105px;
-    height: 31px;
-    padding: 6px;
-    top: -15.5px;
-    left: calc(50% - 52.5px);
+    width: 10.1rem;
+    height: 3.1rem;
+    padding: .6rem;
+    top: -1.55rem;
+    left: calc(50% - 10.1rem/2);
     font-size: 1.2rem;
-    background-color: var(--bitcoin-orange);
-    border-radius: 8px;
+    border-radius: 5px;
     color: var(--just-white);
 }
+.plan-basic {
+    background-color: var(--bitcoin-orange);
+}
+.plan-recommended {
+    background-color: var(--secondary-blue);
+}
+.plan-vip {
+    background-color: var(--secondary-purple);
+}
+
 .plan-info-container .plan-card--title {
-    padding-top: 30px;
+    padding-top: 3rem;
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 1.8rem;
     color: #000000;
 }
 .plan-info-container .plan-card--price {
-    padding: 5px 0;
+    padding: .5rem 0;
     font-size: 5.2rem;
     font-weight: bold;
     line-height: 6.3rem;
@@ -449,7 +462,41 @@ font-family: 'Roboto', sans-serif;
 .plan-card--price span {
     font-size: 1.2rem;
     font-weight: 500;
-    line-height: 1.5rem;
     vertical-align: 3rem;
-    font-family: 'Roboto', sans-serif;
+}
+.plan-card--saving {
+    font-size: 1.2rem;
+    color: #757575;
+}
+
+.plan-card--button {
+    width: 15rem;
+    height: 4.8rem;
+    margin-top: 2rem;
+    background-color: var(--off-white);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+    font-family: 'DM Sans', sans-serif;
+}
+.plan-basic--button {
+    border: 2px solid var(--bitcoin-orange);
+}
+.plan-recommended--button {
+    border: 2px solid var(--secondary-blue);
+}
+.plan-vip--button {
+    border: 2px solid var(--secondary-purple);
+}
+/* Right Arrow buttons */
+.plan-basic--button span {
+    display: inline-block;
+}
+.plan-recommended--button span {
+
+}
+.plan-vip--button span {
+
 }
