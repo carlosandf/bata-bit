@@ -498,10 +498,22 @@ font-family: 'Roboto', sans-serif;
 /* Right Arrow buttons */
 .plan-basic--button span {
     display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../assets/icons/orange-right-arrow.svg');
+    vertical-align: text-bottom;
 }
 .plan-recommended--button span {
-
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../assets/icons/blue-right-arrow.svg');
+    vertical-align: text-bottom;
 }
 .plan-vip--button span {
-
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../assets/icons/purple-right-arrow.svg');
+    vertical-align: text-bottom;
 }
