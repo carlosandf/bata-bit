@@ -421,7 +421,7 @@ font-family: 'Roboto', sans-serif;
     padding: 0 1.5rem;
     background-color: var(--just-white);
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.2);
 }
 .plan-basic,
 .plan-recommended,
@@ -432,7 +432,7 @@ font-family: 'Roboto', sans-serif;
     position: absolute;
     width: 10.1rem;
     height: 3.1rem;
-    
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.5);
     top: -1.55rem;
     left: calc(50% - 10.1rem/2);
     font-size: 1.2rem;
@@ -474,6 +474,7 @@ font-family: 'Roboto', sans-serif;
     color: #757575;
 }
 
+/* Plan Cards Buttons */
 .plan-card--button {
     width: 15rem;
     height: 4.8rem;
@@ -502,24 +503,17 @@ font-family: 'Roboto', sans-serif;
     border: 2px solid var(--secondary-purple);
 }
 /* Right Arrow buttons */
-.plan-basic--button span {
+.plan-card--button span {
     display: inline-block;
     width: 2rem;
     height: 2rem;
+}
+.plan-basic--button span {
     background-image: url('../assets/icons/orange-right-arrow.svg');
-    vertical-align: text-bottom;
 }
 .plan-recommended--button span {
-    display: inline-block;
-    width: 2rem;
-    height: 2rem;
     background-image: url('../assets/icons/blue-right-arrow.svg');
-    vertical-align: text-bottom;
 }
 .plan-vip--button span {
-    display: inline-block;
-    width: 2rem;
-    height: 2rem;
     background-image: url('../assets/icons/purple-right-arrow.svg');
-    vertical-align: text-bottom;
 }
