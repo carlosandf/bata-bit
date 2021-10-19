@@ -411,13 +411,22 @@ font-family: 'Roboto', sans-serif;
 }
 
 /* PLANS CARDS */
+.plans-container--slider {
+    display: flex;
+    height: 31.6rem;
+    padding: 0 6.5rem;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .plans-container--card {
     position: relative;
+    scroll-snap-align: center;
     width: 65%;
     min-width: 19rem;
     max-width: 25rem;
     height: 25.5rem;
-    margin: 5rem auto 0;
+    margin: 5rem .5rem 0;
     padding: 0 1.5rem;
     background-color: var(--just-white);
     border-radius: 8px;
@@ -517,5 +526,3 @@ font-family: 'Roboto', sans-serif;
 .plan-vip--button span {
     background-image: url('../assets/icons/purple-right-arrow.svg');
 }
-
-/* Scroll horizontal. Slider*/
