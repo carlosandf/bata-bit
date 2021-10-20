@@ -418,17 +418,16 @@ font-family: 'Roboto', sans-serif;
 .plans-container--slider {
     display: flex;
     height: 31.6rem;
-    padding: 0 6.5rem;
+    padding: 0 12rem;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    align-items: center;
 }
 .plans-container--card {
     position: relative;
     scroll-snap-align: center;
     width: 65%;
-    min-width: 19rem;
+    min-width: 21rem;
     max-width: 25rem;
     height: 25.5rem;
     margin: 5rem .5rem 0;
