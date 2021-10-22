@@ -1,14 +1,20 @@
+.main-tables-container {
+    display: flex;
+    justify-content: center;
+}
+.product-detail--card {
+    min-width: 40%;
+}
 .product-cards--container {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    margin: 0 auto;
+    justify-content: center;
 }
 .plans-container--slider {
     justify-content: center;
     overflow-x: visible;
 }
-
 .bitcoin-img-contaimer {
     background-image: url('../assets/imgs/bitcoinbaby2x.jpg');
 }
