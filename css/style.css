@@ -5,7 +5,7 @@ font-family: 'Roboto', sans-serif;
 
 :root {
     /* colors */
-    --bitcoin-orange: #F7931A;
+    --bitcoin-orange: #f7931a;
     --soft-orange: #FFE9D5;
     --secondary-blue: #1A9AF7;
     --secondary-purple: #7151a6;
@@ -131,7 +131,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color: #757575;
+    color: #525252;
 }
 
 /* TABLE CONTAINER*/
@@ -163,6 +163,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
+    text-shadow: 0 1px 4px  rgba(102, 102, 102, 0.9) !important;
 }
 
 .main-currency-table .currency-table--title {
@@ -192,7 +193,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.9rem;
-    color: var(--grey);
+    color: var(--warm-black);
     background-color: var(--just-white);
 }
 
@@ -311,7 +312,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: #808080;
+    color: #f0f0f0ce;
 }
 
 /* Cards Style */
@@ -363,7 +364,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: #808080;
+    color: #f0f0f0ce;
 }
 
 /* seccion comodin: bitcoin background img */
@@ -411,7 +412,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: #757575;
+    color: #525252;
 }
 
 /* PLANS CARDS */
