@@ -535,6 +535,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    min-width: 32rem;
     height: 15rem;
     justify-content: center;
     background-color: var(--bitcoin-orange);
